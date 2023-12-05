@@ -33,6 +33,10 @@ module.exports = {
       width: {
         container: '1120px',
       },
+      borderRadius: {
+        'lg-5': '10px',
+        '2.5xl': '20px',
+      },
     },
   },
   plugins: [],

@@ -1,9 +1,11 @@
-import { Container } from '@/components';
+import { Button, Container } from '@/components';
 
 export default function Home() {
   return (
     <main>
-      <Container>Hello</Container>
+      <Container>
+        <Button />
+      </Container>
     </main>
   );
 }
