@@ -1,10 +1,10 @@
-import { Button, Container } from '@/components';
+import { Container, Logo } from '@/components';
 
 export default function Home() {
   return (
     <main>
       <Container>
-        <Button />
+        <Logo />
       </Container>
     </main>
   );
