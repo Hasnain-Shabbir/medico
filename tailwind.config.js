@@ -30,7 +30,7 @@ module.exports = {
         },
         secondary: '#FFC567',
       },
-      width: {
+      maxWidth: {
         container: '1120px',
       },
       borderRadius: {
