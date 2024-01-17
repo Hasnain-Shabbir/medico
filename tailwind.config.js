@@ -29,6 +29,7 @@ module.exports = {
           900: '#002022',
         },
         secondary: '#FFC567',
+        background: '#F8F9FE',
       },
       maxWidth: {
         container: '1120px',
@@ -36,6 +37,10 @@ module.exports = {
       borderRadius: {
         'lg-5': '10px',
         '2.5xl': '20px',
+      },
+      height: {
+        0.5: '2px',
+        0.75: '3px',
       },
     },
   },

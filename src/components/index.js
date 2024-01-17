@@ -3,3 +3,7 @@ export { default as Button } from './Button';
 export { default as Logo } from './Logo';
 export { default as ListItem } from './ListItem';
 export { default as TopBar } from './TopBar';
+export { default as Header } from './Header';
+export { default as Divider } from './Divider';
+export { default as HamburgerIcon } from './HamburgerIcon';
+export { default as NavLink } from './NavLink';
