@@ -33,6 +33,7 @@ module.exports = {
       },
       maxWidth: {
         container: '1120px',
+        45: '180px',
       },
       borderRadius: {
         'lg-5': '10px',
@@ -41,6 +42,14 @@ module.exports = {
       height: {
         0.5: '2px',
         0.75: '3px',
+      },
+      gap: {
+        12.5: '50px',
+        17: '70px',
+        23: '90px',
+      },
+      fontSize: {
+        '7xl': '70px',
       },
     },
   },
