@@ -26,7 +26,7 @@ const Header = () => {
         >
           <Logo />
           <div
-            className={`absolute left-0 right-0 top-full bg-white p-5 pt-2 transition-all duration-300 lg:static lg:flex lg:items-center lg:gap-5 lg:p-0 xl:gap-20 ${
+            className={`absolute left-0 right-0 top-full z-10 bg-white p-5 pt-2 transition-all duration-300 lg:static lg:flex lg:items-center lg:gap-5 lg:p-0 xl:gap-20 ${
               isNavOpened ? '' : 'h-0 opacity-0 lg:h-full lg:opacity-100'
             }`}
           >
