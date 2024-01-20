@@ -1,4 +1,10 @@
-import { Header, TopBar, Divider, HeroSection } from '@/components';
+import {
+  Header,
+  TopBar,
+  Divider,
+  HeroSection,
+  TreatmentsSections,
+} from '@/components';
 
 export default function Home() {
   return (
@@ -8,6 +14,9 @@ export default function Home() {
       <Header />
       <Divider paddingVertical="py-5 lg:py-8" />
       <HeroSection />
+      <Divider paddingVertical="py-10" />
+      <TreatmentsSections />
+      <Divider paddingVertical="py-10" />
     </main>
   );
 }
