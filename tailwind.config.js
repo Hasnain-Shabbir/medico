@@ -30,6 +30,10 @@ module.exports = {
         },
         secondary: '#FFC567',
         background: '#F8F9FE',
+        'c-gray': {
+          100: '#D9D9D9',
+          200: '#979797',
+        },
       },
       maxWidth: {
         container: '1120px',
