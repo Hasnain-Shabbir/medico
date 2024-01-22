@@ -9,6 +9,9 @@ export { default as HamburgerIcon } from './HamburgerIcon';
 export { default as NavLink } from './NavLink';
 export { default as TreatmentCard } from './TreatmentCard';
 export { default as ServiceCard } from './ServiceCard';
+
+// Templates/Sections
 export { default as HeroSection } from './templates/HeroSection';
 export { default as TreatmentsSections } from './templates/TreatmentsSections';
 export { default as ServicesSections } from './templates/ServicesSections';
+export { default as FeaturesSection } from './templates/FeaturesSection';
