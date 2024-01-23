@@ -39,6 +39,9 @@ module.exports = {
         container: '1120px',
         45: '180px',
       },
+      width: {
+        15: '60px',
+      },
       borderRadius: {
         'lg-5': '10px',
         '2.5xl': '20px',
@@ -46,6 +49,7 @@ module.exports = {
       height: {
         0.5: '2px',
         0.75: '3px',
+        15: '60px',
       },
       gap: {
         12.5: '50px',
