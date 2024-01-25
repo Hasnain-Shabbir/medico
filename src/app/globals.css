@@ -22,3 +22,17 @@
   font-weight: 700;
   font-style: normal;
 }
+
+@layer components {
+  .swiper-btn {
+    @apply invisible hidden min-h-[48px] min-w-[48px] rounded-full border-2 border-black transition-all before:hidden before:translate-y-[3px] after:hidden hover:opacity-80 lg:visible lg:before:block;
+  }
+}
+
+.swiper-button-prev {
+  @apply swiper-btn before:content-[url('../../public/arrow-slider-left.svg')];
+}
+
+.swiper-button-next {
+  @apply swiper-btn before:content-[url('../../public/arrow-slider-right.svg')];
+}
