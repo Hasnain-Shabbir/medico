@@ -8,6 +8,7 @@ import {
   FeaturesSection,
   CheckupPlansSection,
   ReviewsSection,
+  AppointmentSection,
 } from '@/components';
 
 export default function Home() {
@@ -27,6 +28,9 @@ export default function Home() {
       <Divider paddingVertical="py-10" />
       <CheckupPlansSection />
       <ReviewsSection />
+      <Divider paddingVertical="py-10" />
+      <AppointmentSection />
+      <Divider paddingVertical="py-10" />
     </main>
   );
 }

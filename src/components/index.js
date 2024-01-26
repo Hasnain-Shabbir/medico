@@ -12,6 +12,10 @@ export { default as ServiceCard } from './ServiceCard';
 export { default as CheckupTabSelector } from './CheckupTabSelector';
 export { default as ReviewsSlider } from './ReviewsSlider';
 export { default as ReviewCard } from './ReviewCard';
+export { default as AppointmentForm } from './AppointmentForm';
+export { default as LabelInput } from './LabelInput';
+export { default as TextArea } from './TextArea';
+export { default as SelectDropdown } from './SelectDropdown';
 
 // Templates/Sections
 export { default as HeroSection } from './templates/HeroSection';
@@ -20,3 +24,4 @@ export { default as ServicesSections } from './templates/ServicesSections';
 export { default as FeaturesSection } from './templates/FeaturesSection';
 export { default as CheckupPlansSection } from './templates/CheckupPlansSection';
 export { default as ReviewsSection } from './templates/ReviewsSection';
+export { default as AppointmentSection } from './templates/AppointmentSection';
