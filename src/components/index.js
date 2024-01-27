@@ -16,6 +16,7 @@ export { default as AppointmentForm } from './AppointmentForm';
 export { default as LabelInput } from './LabelInput';
 export { default as TextArea } from './TextArea';
 export { default as SelectDropdown } from './SelectDropdown';
+export { default as IconButton } from './IconButton';
 
 // Templates/Sections
 export { default as HeroSection } from './templates/HeroSection';
@@ -25,3 +26,4 @@ export { default as FeaturesSection } from './templates/FeaturesSection';
 export { default as CheckupPlansSection } from './templates/CheckupPlansSection';
 export { default as ReviewsSection } from './templates/ReviewsSection';
 export { default as AppointmentSection } from './templates/AppointmentSection';
+export { default as FooterSection } from './templates/FooterSection';

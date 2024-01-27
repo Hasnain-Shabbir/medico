@@ -9,6 +9,7 @@ import {
   CheckupPlansSection,
   ReviewsSection,
   AppointmentSection,
+  FooterSection,
 } from '@/components';
 
 export default function Home() {
@@ -31,6 +32,7 @@ export default function Home() {
       <Divider paddingVertical="py-10" />
       <AppointmentSection />
       <Divider paddingVertical="py-10" />
+      <FooterSection />
     </main>
   );
 }
