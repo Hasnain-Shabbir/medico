@@ -17,10 +17,10 @@ const Header = () => {
   const pathname = usePathname();
 
   return (
-    <header>
+    <header className="sticky top-2.5 z-20">
       <Container>
         <div
-          className={`relative flex items-center justify-between bg-white px-6 py-4 transition-all duration-300 ${
+          className={`relative flex items-center justify-between bg-white px-6 py-4 shadow-md transition-all duration-300 ${
             isNavOpened ? 'h-full opacity-100' : 'overflow-hidden'
           }`}
         >
